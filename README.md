@@ -79,6 +79,3 @@ The main objective of CODEFLARE 2.O is to build an interactive and visually enga
 GitHub:
 https://github.com/devikrishnas2025-cloud
 
----
-
-⭐ **Thank you for visiting CODEFLARE 2.O!**
