@@ -1,35 +1,34 @@
 # 🚀 CODEFLARE 2.O
+#  Echoes of Kerala – Folklore and Legend
 
-# 🌌 MYTHORA
-
-### *Where Legends Come Alive*
+### *Stories that Echo Through Generations*
 
 ## 🌐 Live Website
 
-**[Visit MYTHORA](https://devikrishnas2025-cloud.github.io/CODEFLARE-2.O/)**
+**[Visit Echoes of Kerala – Folklore and Legend](https://devikrishnas2025-cloud.github.io/CODEFLARE-2.O/)**
 
 ---
 
 ## 📖 About the Project
 
-**Mythora** is an interactive website dedicated to the fascinating world of **mythology and folklore**.
+**Echoes of Kerala – Folklore and Legend** is an interactive website that explores the rich cultural heritage, fascinating folklore, and legendary stories of **Kerala**.
 
-The website explores legendary stories, traditional beliefs, mythical characters, and fascinating tales that have been passed down through generations. It aims to bring these stories into a modern digital experience through an engaging and visually appealing interface.
+The website brings together the timeless tales, myths, legends, and traditional narratives that have been passed down through generations. It presents Kerala's folklore in a modern and engaging digital format while celebrating the cultural stories that continue to shape its identity.
 
-Mythora was created as a hands-on web development project, combining creativity with **HTML, CSS, and JavaScript** to create an immersive experience for users interested in myths, legends, and folklore.
+The project was developed as a hands-on web development project using **HTML, CSS, and JavaScript**, with a focus on creating an attractive, interactive, and user-friendly experience.
 
 ---
 
 ## ✨ Features
 
-* 🏛️ Explore the world of mythology and folklore
-* 📜 Discover fascinating legends and traditional stories
-* 🌟 Interactive and engaging user interface
-* 🎨 Visually appealing design
+* 🌴 Explore the folklore and legends of Kerala
+* 📜 Discover traditional stories and cultural narratives
+* 🪔 Experience Kerala's rich cultural heritage
+* 🎨 Visually engaging and user-friendly interface
+* ⚡ Interactive elements using JavaScript
 * 💻 Responsive web design
 * 📱 Compatible with different screen sizes
-* ⚡ Interactive elements powered by JavaScript
-* 🌐 Accessible directly through a web browser
+* 🌐 Accessible through a web browser
 * 🚀 Deployed using GitHub Pages
 
 ---
@@ -49,7 +48,7 @@ Mythora was created as a hands-on web development project, combining creativity 
 ## 📂 Project Structure
 
 ```text
-Mythora/
+Echoes-of-Kerala/
 │
 ├── index.html
 ├── style.css
@@ -60,7 +59,7 @@ Mythora/
 
 ## 🚀 Deployment
 
-Mythora is deployed using **GitHub Pages** and is publicly accessible online.
+The website is deployed using **GitHub Pages** and is publicly accessible online.
 
 ### 🔗 Live Website
 
@@ -74,9 +73,9 @@ https://github.com/devikrishnas2025-cloud/CODEFLARE-2.O
 
 ## 🎯 Objective
 
-The objective of **Mythora** is to present mythology and folklore in a modern, interactive, and accessible format while applying practical frontend web development concepts.
+The main objective of **Echoes of Kerala – Folklore and Legend** is to preserve and showcase Kerala's rich folklore and legendary traditions through a modern digital platform.
 
-The project combines **storytelling, culture, creativity, and technology** to create an engaging digital journey through the world of myths and legends.
+The project combines **culture, storytelling, creativity, and technology** to introduce users to the fascinating stories and traditions that have been passed down through generations.
 
 ---
 
@@ -89,6 +88,6 @@ https://github.com/devikrishnas2025-cloud
 
 ---
 
-### 🌙 *Step into the world of ancient stories, legendary heroes, mythical beings, and timeless folklore.*
+### 🌿 *Every legend carries a story. Every story carries a piece of Kerala.*
 
-⭐ **Explore. Discover. Remember the Legends.**
+⭐ **Explore the stories. Discover the legends. Hear the echoes of Kerala.**
