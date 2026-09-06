@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Echoes of Kerala — Folklore &amp; Legend</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Martel:wght@400;700;800&family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a href="#main-content" class="skip-link">Skip to main content</a>
+<div id="ariaAnnouncer" class="visually-hidden" aria-live="polite"></div>
+
+<!-- Accessibility Toolbar -->
+<div class="a11y-toolbar">
+  <div class="a11y-panel" id="a11yPanel">
+    <h4>Read aloud</h4>
+    <div class="a11y-row">
+      <button class="a11y-btn" id="readToggle" aria-pressed="false">
+        <span id="readToggleIcon">▶</span> <span id="readToggleLabel">Read page</span>
+      </button>
+    </div>
+    <h4>Text size</h4>
+    <div class="a11y-row">
+      <button class="a11y-btn" id="fontDown" aria-label="Decrease text size">A−</button>
+      <button class="a11y-btn" id="fontReset" aria-label="Reset text size">A</button>
+      <button class="a11y-btn" id="fontUp" aria-label="Increase text size">A+</button>
+    </div>
+    <h4>Display</h4>
+    <div class="a11y-row">
+      <button class="a11y-btn" id="contrastToggle" aria-pressed="false">High contrast</button>
+    </div>
+  </div>
+  <button class="a11y-fab" id="a11yFab" aria-expanded="false" aria-controls="a11yPanel" aria-label="Accessibility options">
+    ♿
+  </button>
+</div>
+
+<button id="backToTop" aria-label="Back to top">↑</button>
+
+<!-- Navigation Bar -->
+<header class="site-nav">
+  <div class="nav-inner">
+    <div class="brand">Echoes<span>·</span>Kerala</div>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false"><span></span></button>
+    <nav class="links" id="navLinks">
+      <a href="#home">Home</a>
+      <a href="#stories">Story Explorer</a>
+      <a href="#characters">Character Gallery</a>
+      <a href="#vault">Folklore Vault</a>
+      <a href="#path">Choose Your Path</a>
+      <button class="nav-auth-btn" id="openAuthBtn">Login / Register</button>
+    </nav>
+  </div>
+</header>
+
+<main id="main-content">
+  <!-- ================= HOME SECTION ================= -->
+  <section id="home" class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="hero-eyebrow">Mythology &amp; Folklore of Kerala</span>
+        <h1>The land remembers what the books forget: <em>echoes</em> of Kerala.</h1>
+        <p class="lede">Sorcerer-priests, outlaw heroes, serpent groves and vengeful spirits — step into the oral world of Kerala's temple murals, midnight ballads and village verandas.</p>
+        <div class="hero-cta">
+          <a href="#stories" class="btn solid">Read the tales</a>
+          <button class="btn" id="heroAuthBtn">Member Login</button>
+        </div>
+      </div>
+      <svg class="lamp-motif" viewBox="0 0 200 260" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M100 10 C 60 10 40 40 40 70 C 40 95 55 105 55 120 L 145 120 C 145 105 160 95 160 70 C 160 40 140 10 100 10 Z" stroke="#e3ac3f" stroke-width="2"/>
+        <path d="M55 120 L145 120 L160 150 L40 150 Z" stroke="#e3ac3f" stroke-width="2"/>
+        <ellipse cx="100" cy="160" rx="70" ry="14" stroke="#e3ac3f" stroke-width="2"/>
+        <path d="M30 160 C 10 175 10 210 30 225" stroke="#e3ac3f" stroke-width="2"/>
+        <path d="M170 160 C 190 175 190 210 170 225" stroke="#e3ac3f" stroke-width="2"/>
+        <line x1="100" y1="174" x2="100" y2="250" stroke="#e3ac3f" stroke-width="2"/>
+        <circle cx="100" cy="70" r="16" stroke="#e3ac3f" stroke-width="2"/>
+        <path d="M100 54 L100 40" stroke="#e3ac3f" stroke-width="2"/>
+      </svg>
+    </div>
+  </section>
+
+  <!-- ================= STORY EXPLORER ================= -->
+  <section id="stories" class="bg-cream">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Story Explorer</span>
+        <h2>Tales told on temple steps and moonlit verandas</h2>
+        <p>Each legend unfolds the way it was passed down — character, event, place, and the meaning left behind. Tap a title to open the tale.</p>
+      </div>
+      <div class="mural-divider" aria-hidden="true">
+        <svg viewBox="0 0 600 22" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="leafRow1" width="40" height="22" patternUnits="userSpaceOnUse">
+              <path d="M20 3 C 26 8 26 14 20 19 C 14 14 14 8 20 3 Z" fill="none" stroke="#711d16" stroke-width="1.4"/>
+              <circle cx="20" cy="11" r="1.6" fill="#c9932a"/>
+            </pattern>
+          </defs>
+          <rect width="600" height="22" fill="url(#leafRow1)"/>
+        </svg>
+      </div>
+      <div class="story-list" id="storyList"></div>
+    </div>
+  </section>
+
+  <!-- ================= CHARACTER GALLERY ================= -->
+  <section id="characters" class="bg-forest grain">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Character Gallery</span>
+        <h2>Gods, outlaws, spirits and guardians</h2>
+        <p>The figures who populate Kerala's folk imagination — worshipped, feared, and sung about in equal measure. Select a name for their full story.</p>
+      </div>
+      <div class="char-grid" id="charGrid"></div>
+    </div>
+  </section>
+
+  <!-- Character Modal -->
+  <div class="modal-backdrop" id="modalBackdrop">
+    <div class="modal" id="modalContent" role="dialog" aria-modal="true">
+      <button class="modal-close" id="modalClose" aria-label="Close">&times;</button>
+    </div>
+  </div>
+
+  <!-- ================= FOLKLORE VAULT ================= -->
+  <section id="vault" class="bg-maroon grain">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Folklore Vault</span>
+        <h2>Festivals, customs, and words passed down</h2>
+        <p>Beyond named heroes: the rituals, sayings and seasonal rhythms that carry Kerala's folk memory year to year.</p>
+      </div>
+      <div class="mural-divider" aria-hidden="true">
+        <svg viewBox="0 0 600 22" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="leafRow2" width="40" height="22" patternUnits="userSpaceOnUse">
+              <path d="M20 3 C 26 8 26 14 20 19 C 14 14 14 8 20 3 Z" fill="none" stroke="#e3ac3f" stroke-width="1.4"/>
+              <circle cx="20" cy="11" r="1.6" fill="#e3ac3f"/>
+            </pattern>
+          </defs>
+          <rect width="600" height="22" fill="url(#leafRow2)"/>
+        </svg>
+      </div>
+      <div class="vault-groups" id="vaultGroups"></div>
+    </div>
+  </section>
+
+  <!-- ================= CHOOSE YOUR PATH ================= -->
+  <section id="path" class="bg-cream">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker">Choose Your Path</span>
+        <h2>The Guardian of the Sacred Grove</h2>
+        <p>A sarpa kavu — a serpent grove — sits untouched behind an old tharavadu. What happens next depends on you.</p>
+      </div>
+      <div class="path-frame">
+        <div class="grove-scene" id="groveScene" aria-hidden="true"></div>
+        <span class="path-tag" id="pathNodeLabel">— Dusk, at the edge of the grove —</span>
+        <div id="path-text"></div>
+        <div id="path-choices"></div>
+        <button class="listen-btn" id="pathListenBtn" type="button">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 9v6h4l5 5V4L8 9H4z"/><path d="M17 8a5 5 0 010 8"/></svg>
+          <span>Listen to this passage</span>
+        </button>
+        <button class="btn solid" id="path-restart">Begin again</button>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- ================= AUTH MODAL ================= -->
+<div class="modal-backdrop" id="authModalBackdrop">
+  <div class="modal auth-modal" role="dialog" aria-modal="true">
+    <button class="modal-close" id="authModalClose" aria-label="Close">&times;</button>
+    <div class="auth-tabs">
+      <button class="auth-tab active" id="tabLogin">Login</button>
+      <button class="auth-tab" id="tabRegister">Register</button>
+    </div>
+    
+    <!-- Login Form -->
+    <form class="auth-form active" id="loginForm">
+      <h3>Welcome Back</h3>
+      <div class="form-group">
+        <label for="loginEmail">Email Address</label>
+        <input type="email" id="loginEmail" required placeholder="you@example.com">
+      </div>
+      <div class="form-group">
+        <label for="loginPassword">Password</label>
+        <input type="password" id="loginPassword" required placeholder="••••••••">
+      </div>
+      <button type="submit" class="btn solid auth-submit">Login</button>
+    </form>
+
+    <!-- Register Form -->
+    <form class="auth-form" id="registerForm">
+      <h3>Create an Account</h3>
+      <div class="form-group">
+        <label for="regName">Full Name</label>
+        <input type="text" id="regName" required placeholder="Your Name">
+      </div>
+      <div class="form-group">
+        <label for="regEmail">Email Address</label>
+        <input type="email" id="regEmail" required placeholder="you@example.com">
+      </div>
+      <div class="form-group">
+        <label for="regPassword">Password</label>
+        <input type="password" id="regPassword" required placeholder="••••••••">
+      </div>
+      <button type="submit" class="btn solid auth-submit">Sign Up</button>
+    </form>
+  </div>
+</div>
+
+<footer>
+  Built for the <strong>Mythology &amp; Folklore</strong> web-dev showcase &middot; Echoes of Kerala
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
