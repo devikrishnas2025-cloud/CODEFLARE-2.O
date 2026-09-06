@@ -1,58 +1,66 @@
 # 🚀 CODEFLARE 2.O
 
+# 🌌 MYTHORA
+
+### *Where Legends Come Alive*
+
 ## 🌐 Live Website
 
-**[Visit CODEFLARE 2.O](https://devikrishnas2025-cloud.github.io/CODEFLARE-2.O/)**
+**[Visit MYTHORA](https://devikrishnas2025-cloud.github.io/CODEFLARE-2.O/)**
 
 ---
 
-## 📌 About the Project
+## 📖 About the Project
 
-**CODEFLARE 2.O** is a creative and interactive web project developed to demonstrate modern web development concepts through an engaging and user-friendly website.
+**Mythora** is an interactive website dedicated to the fascinating world of **mythology and folklore**.
 
-The project focuses on creating a visually appealing interface while providing an interactive experience for users. It was developed as a hands-on project to apply concepts of **HTML, CSS, and JavaScript** in a practical way.
+The website explores legendary stories, traditional beliefs, mythical characters, and fascinating tales that have been passed down through generations. It aims to bring these stories into a modern digital experience through an engaging and visually appealing interface.
+
+Mythora was created as a hands-on web development project, combining creativity with **HTML, CSS, and JavaScript** to create an immersive experience for users interested in myths, legends, and folklore.
 
 ---
 
 ## ✨ Features
 
-* 🎨 Attractive and user-friendly interface
+* 🏛️ Explore the world of mythology and folklore
+* 📜 Discover fascinating legends and traditional stories
+* 🌟 Interactive and engaging user interface
+* 🎨 Visually appealing design
 * 💻 Responsive web design
-* ⚡ Interactive elements
-* 🌐 Easy to access through a web browser
 * 📱 Compatible with different screen sizes
-* 🚀 Hosted using GitHub Pages
+* ⚡ Interactive elements powered by JavaScript
+* 🌐 Accessible directly through a web browser
+* 🚀 Deployed using GitHub Pages
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology       | Purpose                                |
-| ---------------- | -------------------------------------- |
-| **HTML5**        | Website structure                      |
-| **CSS3**         | Styling and layout                     |
-| **JavaScript**   | Interactivity and functionality        |
-| **Git & GitHub** | Version control and repository hosting |
-| **GitHub Pages** | Website deployment                     |
+| Technology       | Purpose                                 |
+| ---------------- | --------------------------------------- |
+| **HTML5**        | Website structure and content           |
+| **CSS3**         | Styling, layout, and visual design      |
+| **JavaScript**   | Interactivity and dynamic functionality |
+| **Git & GitHub** | Version control and repository hosting  |
+| **GitHub Pages** | Website deployment                      |
 
 ---
 
 ## 📂 Project Structure
 
 ```text
-CODEFLARE-2.O/
+Mythora/
 │
 ├── index.html
 ├── style.css
-├── script.js
-
+└── script.js
 ```
 
 ---
 
 ## 🚀 Deployment
 
-The website is deployed using **GitHub Pages** and is publicly accessible online.
+Mythora is deployed using **GitHub Pages** and is publicly accessible online.
 
 ### 🔗 Live Website
 
@@ -66,7 +74,9 @@ https://github.com/devikrishnas2025-cloud/CODEFLARE-2.O
 
 ## 🎯 Objective
 
-The main objective of CODEFLARE 2.O is to build an interactive and visually engaging website while gaining practical experience in frontend web development and deploying a project online.
+The objective of **Mythora** is to present mythology and folklore in a modern, interactive, and accessible format while applying practical frontend web development concepts.
+
+The project combines **storytelling, culture, creativity, and technology** to create an engaging digital journey through the world of myths and legends.
 
 ---
 
@@ -77,3 +87,8 @@ The main objective of CODEFLARE 2.O is to build an interactive and visually enga
 GitHub:
 https://github.com/devikrishnas2025-cloud
 
+---
+
+### 🌙 *Step into the world of ancient stories, legendary heroes, mythical beings, and timeless folklore.*
+
+⭐ **Explore. Discover. Remember the Legends.**
