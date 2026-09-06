@@ -45,9 +45,7 @@ CODEFLARE-2.O/
 ├── index.html
 ├── style.css
 ├── script.js
-└── assets/
-    ├── images/
-    └── other resources
+
 ```
 
 ---
